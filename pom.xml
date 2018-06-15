@@ -38,18 +38,13 @@
 	</plugins>
 	</build>
   
+
 <distributionManagement>
-    <repository>
-        <id>deployment</id>
-        <name>bd7e4d6b271d-releases</name>
-        <url>http://localhost:8083/nexus/content/repositories/mphsnap/</url>
-    </repository>
-    <snapshotRepository>
-        <id>deployment</id>
-        <name>bd7e4d6b271d-snapshots</name>
-        <url>http://localhost:8083/nexus/content/repositories/mph/</url>
-    </snapshotRepository>
+  <repository>
+    <id>mph</id>
+    <url>http://localhost:8083/nexus/content/repositories/mph</url>
+  </repository>
 </distributionManagement>
 
-
+	
 </project>
